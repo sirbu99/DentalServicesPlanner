@@ -4,6 +4,7 @@ import javax.persistence.Column;
 import javax.persistence.MappedSuperclass;
 import javax.validation.constraints.NotEmpty;
 
+
 @MappedSuperclass
 public class Person extends BaseEntity {
 
